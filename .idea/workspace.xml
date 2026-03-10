@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1af343a-2b4a-4026-917a-55cde894b374" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../animaster1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../animaster1/index.html" afterDir="false" />
@@ -16,7 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../animaster1" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -75,7 +76,7 @@
       <workItem from="1773142024828" duration="3153000" />
       <workItem from="1773145269107" duration="43000" />
       <workItem from="1773145312942" duration="5000" />
-      <workItem from="1773145423524" duration="839000" />
+      <workItem from="1773145423524" duration="1282000" />
     </task>
     <servers />
   </component>
