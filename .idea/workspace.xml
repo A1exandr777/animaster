@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1af343a-2b4a-4026-917a-55cde894b374" name="Changes" comment="Add moveAndHide">
+    <list default="true" id="c1af343a-2b4a-4026-917a-55cde894b374" name="Changes" comment="Add heartBeating">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
@@ -75,7 +75,7 @@
       <workItem from="1773142024828" duration="3153000" />
       <workItem from="1773145269107" duration="43000" />
       <workItem from="1773145312942" duration="5000" />
-      <workItem from="1773145423524" duration="3459000" />
+      <workItem from="1773145423524" duration="7188000" />
     </task>
     <task id="LOCAL-00001" summary="Add moveAndHide">
       <option name="closed" value="true" />
@@ -85,7 +85,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773146845052</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add heartBeating">
+      <option name="closed" value="true" />
+      <created>1773148970515</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1773148970515</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +122,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add moveAndHide" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add moveAndHide" />
+    <MESSAGE value="Add heartBeating" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add heartBeating" />
   </component>
 </project>
