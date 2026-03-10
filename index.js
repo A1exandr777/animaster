@@ -10,7 +10,7 @@ function addListeners() {
     document.getElementById('movePlay')
         .addEventListener('click', function () {
             const block = document.getElementById('moveBlock');
-            animaster().move(block, 1000, {x: 100, y: 10});
+            animaster().move(block, 1000, { x: 100, y: 10 });
         });
 
     document.getElementById('scalePlay')
@@ -24,9 +24,15 @@ function addListeners() {
             const block = document.getElementById('fadeOutBlock');
             animaster().fadeOut(block, 5000);
         });
+
+    document.getElementById('showAndHide')
+        .addEventListener('click', function () {
+            const block = document.getElementById('showAndHideBlock');
+            animaster().showAndHide(block, 1000);
+        });
 }
 
-function animaster(){
+function animaster() {
     return {
         fadeIn(element, duration) {
             element.style.transitionDuration = `${duration}ms`;
@@ -34,8 +40,8 @@ function animaster(){
             element.classList.add('show');
         },
         move(element, duration, translation) {
-        element.style.transitionDuration = `${duration}ms`;
-        element.style.transform = getTransform(translation, null);
+            element.style.transitionDuration = `${duration}ms`;
+            element.style.transform = getTransform(translation, null);
         },
         scale(element, duration, ratio) {
             element.style.transitionDuration = `${duration}ms`;
@@ -47,8 +53,12 @@ function animaster(){
             element.classList.remove('show');
         },
         moveAndHide(element, duration, translation) {
-            this.move(element, duration*0.4, translation);
-            this.scale(element, duration*0.6);
+            this.move(element, duration * 0.4, translation);
+            this.scale(element, duration * 0.6);
+        },
+        showAndHide(element, duration) {
+            this.fadeIn(element, duration / 3);
+            setTimeout(() => this.fadeOut(element, duration / 3), (2 / 3) * duration);
         }
     }
 }
