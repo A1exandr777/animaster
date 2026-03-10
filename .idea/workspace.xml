@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1af343a-2b4a-4026-917a-55cde894b374" name="Changes" comment="">
+    <list default="true" id="c1af343a-2b4a-4026-917a-55cde894b374" name="Changes" comment="Add moveAndHide">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../animaster1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../animaster1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../animaster1/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../animaster1/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +25,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/kontur-web-courses/animaster.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/A1exandr777/animaster.git&quot;,
     &quot;accountId&quot;: &quot;b3f0ae48-0792-4ce5-a187-37259f7f3fe3&quot;
   }
 }</component>
@@ -44,6 +42,7 @@
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;Node.js.index.js.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1&quot;: &quot;true&quot;,
     &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
@@ -76,8 +75,17 @@
       <workItem from="1773142024828" duration="3153000" />
       <workItem from="1773145269107" duration="43000" />
       <workItem from="1773145312942" duration="5000" />
-      <workItem from="1773145423524" duration="1282000" />
+      <workItem from="1773145423524" duration="3459000" />
     </task>
+    <task id="LOCAL-00001" summary="Add moveAndHide">
+      <option name="closed" value="true" />
+      <created>1773146845052</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1773146845052</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,5 +111,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add moveAndHide" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add moveAndHide" />
   </component>
 </project>
